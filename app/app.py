@@ -1,7 +1,7 @@
 """This handles the app logic to serve up APIs and display the app"""
 from flask import Flask, render_template
 
-APPLICATION = Flask("personal-website")
+APPLICATION = Flask("donate-to-charity")
 
 
 @APPLICATION.route("/", methods=["GET"])
